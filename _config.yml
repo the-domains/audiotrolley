@@ -1,29 +1,41 @@
-name: audiotrolley
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 1
 title: 'all things audio '
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.5
+  brandStrength: 1
+  lightness: 0.5
+  brandColors:
+    - '#151515'
+    - '#FFFFFF'
+    - '#DADADA'
+    - '#707070'
+    - '#404040'
+  rhythmicContrast: 0.3922264762222767
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+name: audiotrolley
+favicon: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ffffff'
-    - '#000000'
-    - '#8f8f8f'
-    - '#3c3c3c'
-    - '#be1a79'
-  brandStrength: 1
-  lightness: 0.5
-  saturation: 0.5
-  rhythmicContrast: 0.3922264762222767
-purpose: []
+typography_spectrum: 1
+layout_spectrum: 1
